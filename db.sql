@@ -14,8 +14,8 @@ CREATE TABLE article(
 INSERT INTO article
 SET regDate = NOW(),
 updateDate = NOW(),
-title = CONCAT('제목', RAND()),
-`body` = CONCAT('내용', RAND());
+title = CONCAT('제목'),
+`body` = CONCAT('내용');
 
 SELECT *
 FROM article;
